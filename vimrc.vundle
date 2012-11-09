@@ -1,0 +1,61 @@
+" Brief HELP of vundle
+" :BundleList          - list configured bundles
+" :BundleInstall(!)    - install(update) bundles
+" :BundleSearch(!) foo - search(or refresh cache first) for foo
+" :BundleClean(!)      - confirm(or auto-approve) removal of unused bundles
+"
+" see :h vundle for more details or wiki for FAQ
+" NOTE: comments after Bundle command are not allowed..
+ 
+" general 
+Bundle 'Townk/vim-autoclose'
+Bundle 'mileszs/ack.vim'
+Bundle 'thisivan/vim-bufexplorer' 
+Bundle 'vim-scripts/AutoTag'
+Bundle 'majutsushi/tagbar'
+Bundle 'techlivezheng/tagbar-phpctags'
+Bundle 'scrooloose/nerdtree'
+Bundle 'scrooloose/nerdcommenter.git'
+Bundle 'vim-scripts/YankRing.vim.git'
+Bundle 'tpope/vim-fugitive'
+Bundle 'tpope/vim-repeat'
+Bundle 'tpope/vim-surround'
+Bundle 'tpope/vim-eunuch'
+Bundle 'tpope/vim-markdown'
+Bundle 'tpope/vim-endwise'
+Bundle 'sukima/xmledit.git'
+Bundle 'vim-scripts/matchit.zip'
+Bundle 'Lokaltog/vim-easymotion'
+"AutoComplete & snippets
+Bundle 'Shougo/neocomplcache'
+Bundle 'Shougo/neosnippet'
+Bundle 'vim-scripts/OmniCppComplete'
+" syntac checking for lots of languages
+Bundle "scrooloose/syntastic"
+
+"--------------------
+" for php
+"--------------------
+Bundle 'stephpy/vim-php-cs-fixer'
+Bundle 'arnaud-lb/vim-php-namespace'
+Bundle 'shawncplus/phpcomplete.vim'
+Bundle 'shawncplus/php.vim'
+Bundle 'vim-scripts/PDV--phpDocumentor-for-Vim'
+
+"--------------------
+" for html, haml, sass
+"--------------------
+Bundle 'concise/vim-html5-fix'
+Bundle 'tpope/vim-haml'
+
+"--------------------
+" for javascript
+"--------------------
+Bundle 'pangloss/vim-javascript'
+Bundle 'itspriddle/vim-jquery'
+"Bundle 'hallettj/jslint.vim'
+
+" non github repos
+"Bundle 'git://git.wincent.com/command-t.git'
+
+
