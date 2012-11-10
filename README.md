@@ -44,7 +44,7 @@ Useful vim Plugins included
  * [neocomplcache](https://github.com/Shougo/neocomplcache)
  * [neosnippet](https://github.com/Shougo/neosnippet)
  * [OmniCppComplete](https://github.com/vim-scripts/OmniCppComplete)
- * [syntastic"](https://github.com/Bundle "scrooloose/syntastic")
+ * [syntastic](https://github.com/scrooloose/syntastic)
  * [vim-php-cs-fixer](https://github.com/stephpy/vim-php-cs-fixer)
  * [vim-php-namespace](https://github.com/arnaud-lb/vim-php-namespace)
  * [phpcomplete.vim](https://github.com/shawncplus/phpcomplete.vim)
