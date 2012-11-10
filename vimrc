@@ -49,7 +49,7 @@ set wildmenu		" wild char completion menu
 " ignore these files while expanding wild chars
 set wildignore+=.svn,CVS,.git 
 set wildignore+=*.o,*.a,*.class,*.mo,*.la,*.so,*.lo,*.la,*.obj,*.pyc
-set wildignore+=*.jpg,*.png,*.gif,*.jpeg 
+set wildignore+=*.exe,*.zip,*.jpg,*.png,*.gif,*.jpeg 
 
 set autoindent		" auto indentation
 set incsearch		" incremental search
@@ -413,6 +413,18 @@ let g:php_search_doc_function_mapping='<Leader>pf'
 let g:php_search_doc_manual_mapping='<Leader>pm'
 let g:jquery_doc_command = 'open'
 let g:jquery_doc_mapping = '<Leader>jm'
+
+" --- ctrlp.vim
+nnoremap <leader>f :CtrlP<CR>
+set wildignore+=*/tmp/*
+let g:ctrlp_map = '<c-p>'
+let g:ctrlp_cmd = 'CtrlP'
+let g:ctrlp_working_path_mode = 'ra'
+let g:ctrlp_custom_ignore = {
+			\ 'dir':  '\v[\/]\.(git|hg|svn)$',
+			\ 'file': '\v\.(exe|so|dll)$',
+			\ 'link': 'some_bad_symbolic_links',
+			\ }
 
 "---------------------------------------------
 " using ctags

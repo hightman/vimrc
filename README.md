@@ -56,6 +56,7 @@ Useful vim Plugins included
  * [vim-jquery](https://github.com/itspriddle/vim-jquery)
  * [php-search-doc](https://github.com/erikfercak/php-search-doc)
  * [vim-jquery-doc](https://github.com/lucapette/vim-jquery-doc)
+ * [ctrlp.vim](https://github.com/kien/ctrlp.vim)
 
 
 INSTALL
@@ -105,4 +106,6 @@ Conventions
   - `F6` `;sy` Manually Syntax check by syntastic plugin
   - `F2` `;y` Open yanking history
   - `;pm` `;pf` `;jm` Open online PHP_Manual, PHP_Function, JQuery_Manual
+  - `Ctrl-P` `;f` Invoke CtrlP to find files
+
 

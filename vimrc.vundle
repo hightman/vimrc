@@ -32,6 +32,8 @@ Bundle 'Shougo/neosnippet'
 Bundle 'vim-scripts/OmniCppComplete'
 " syntac checking for lots of languages
 Bundle "scrooloose/syntastic"
+" File fuzzy search
+Bundle "kien/ctrlp.vim"
 
 "--------------------
 " for php
