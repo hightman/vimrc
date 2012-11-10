@@ -54,6 +54,8 @@ Useful vim Plugins included
  * [vim-haml](https://github.com/tpope/vim-haml)
  * [vim-javascript](https://github.com/pangloss/vim-javascript)
  * [vim-jquery](https://github.com/itspriddle/vim-jquery)
+ * [php-search-doc](https://github.com/erikfercak/php-search-doc)
+ * [vim-jquery-doc](https://github.com/lucapette/vim-jquery-doc)
 
 
 INSTALL
@@ -81,7 +83,7 @@ Conventions
 
 * Swap file is moved to `~/.vim/tmp/$NAME.swp`
 
-* Shourtcuts, the <leader> key is comma (,)
+* Shourtcuts, the `<leader>` key is `;`
   - `;w` Save & quit
   - `;q` Force to quit without saving
   - `;r` Replace the current word in all opened files
@@ -102,4 +104,5 @@ Conventions
   - `F3` `;n` Toggle NerdTree Tabs
   - `F6` `;sy` Manually Syntax check by syntastic plugin
   - `F2` `;y` Open yanking history
+  - `;pm` `;pf` `;jm` Open online PHP_Manual, PHP_Function, JQuery_Manual
 

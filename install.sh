@@ -46,7 +46,7 @@ fi
 echo > vimrc.path
 file=vimrc.path
 path="/opt/local/bin /usr/local/bin /usr/bin"
-util="ctags jsctags phpctags php-cs-fixer"
+util="ctags jsctags phpctags php-cs-fixer xdg-open"
 echo "Detecting PATH of binary utils ..."
 for e in $util; do
 	for p in $path; do
@@ -72,6 +72,11 @@ if [ ! -z "$x_phpctags" ]; then
 fi
 if [ ! -z "$x_php_cs_fixer" ]; then
 	echo "let g:php_cs_fixer_path = '$x_php_cs_fixer'" >> $file
+fi
+# open online doc:wq
+if [ ! -z "$x_xdg_open" ]; then
+	echo "let g:jquery_doc_command = '$x_xdg_open'" >> $file
+	echo "let g:php_search_doc_command = '$x_xdg_open'" >> $file
 fi
 if ! grep markdown ~/.ctags > /dev/null 2>&1; then
 	cat >> ~/.ctags <<EOT

@@ -41,6 +41,8 @@ Bundle 'arnaud-lb/vim-php-namespace'
 Bundle 'shawncplus/phpcomplete.vim'
 Bundle 'shawncplus/php.vim'
 Bundle 'vim-scripts/PDV--phpDocumentor-for-Vim'
+Bundle 'erikfercak/php-search-doc'
+Bundle 'lucapette/vim-jquery-doc'
 
 "--------------------
 " for html, haml, sass

@@ -94,3 +94,9 @@
 [submodule "bundle/php.vim"]
 	path = bundle/php.vim
 	url = git://github.com/shawncplus/php.vim.git
+[submodule "bundle/php-search-doc"]
+	path = bundle/php-search-doc
+	url = git://github.com/erikfercak/php-search-doc.git
+[submodule "bundle/vim-jquery-doc"]
+	path = bundle/vim-jquery-doc
+	url = git://github.com/lucapette/vim-jquery-doc.git

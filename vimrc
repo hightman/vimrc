@@ -407,8 +407,12 @@ let g:html_indent_inctags = "html,body,head,tbody"
 let g:html_indent_script1 = "inc"
 let g:html_indent_style1 = "inc"
 
-" --- Command-T
-let g:CommandTMaxHeight = 15
+" --- php-search-doc, vim-jquery-doc
+let g:php_search_doc_command = 'open'
+let g:php_search_doc_function_mapping='<Leader>pf'
+let g:php_search_doc_manual_mapping='<Leader>pm'
+let g:jquery_doc_command = 'open'
+let g:jquery_doc_mapping = '<Leader>jm'
 
 "---------------------------------------------
 " using ctags
