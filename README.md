@@ -100,7 +100,7 @@ Conventions
   - Double press `Ctrl-T` to open new tab
   - `Ctrl-T` + `Ctrl-W` to open the current tab
   - `:cd.` Change the working directory to that of the current file
-  - `Ctrl-[` `Ctrl-]` Jump/Back out of the tag stack 
+  - `Ctrl-[` `Ctrl-]` `Ctrl-\` Jump/Back out of the tag stack 
   - `F7` `;t` Toggle Tagbar
   - `F3` `;n` Toggle NerdTree Tabs
   - `F6` `;sy` Manually Syntax check by syntastic plugin
