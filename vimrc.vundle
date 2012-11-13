@@ -11,7 +11,7 @@
 Bundle 'Townk/vim-autoclose'
 Bundle 'mileszs/ack.vim'
 Bundle 'thisivan/vim-bufexplorer' 
-Bundle 'vim-scripts/AutoTag'
+Bundle 'xolox/vim-easytags'
 Bundle 'majutsushi/tagbar'
 Bundle 'techlivezheng/tagbar-phpctags'
 Bundle 'scrooloose/nerdtree'

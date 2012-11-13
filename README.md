@@ -26,7 +26,7 @@ Useful vim Plugins included
  * [vim-autoclose](https://github.com/Townk/vim-autoclose)
  * [ack.vim](https://github.com/mileszs/ack.vim)
  * [vim-bufexplorer](https://github.com/thisivan/vim-bufexplorer)
- * [AutoTag](https://github.com/vim-scripts/AutoTag)
+ * [vim-easytag](https://github.com/xolox/vim-easytags)
  * [tagbar](https://github.com/majutsushi/tagbar)
  * [tagbar-phpctags](https://github.com/techlivezheng/tagbar-phpctags)
  * [nerdtree](https://github.com/scrooloose/nerdtree)
@@ -107,5 +107,6 @@ Conventions
   - `F2` `;y` Open yanking history
   - `;pm` `;pf` `;jm` Open online PHP_Manual, PHP_Function, JQuery_Manual
   - `Ctrl-P` `;f` Invoke CtrlP to find files
+  - `;ut` `;ht` Update/Highlight tags by vim-easytags
 
 
