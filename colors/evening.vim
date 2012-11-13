@@ -53,4 +53,10 @@ if &t_Co > 8
 endif
 hi Ignore ctermfg=DarkGrey guifg=grey20
 
+" Popupmenu
+hi Pmenu guifg=White ctermfg=White guibg=#000099 ctermbg=Blue gui=bold cterm=bold
+hi PmenuSel guifg=White ctermfg=White guibg=#5555ff ctermbg=DarkCyan gui=bold cterm=bold
+hi PmenuSbar guibg=Grey ctermbg=Grey
+hi PmenuThumb guibg=White ctermbg=White
+
 " vim: sw=2
