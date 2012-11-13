@@ -286,15 +286,15 @@ hi StatusLineNC ctermfg=darkblue ctermbg=gray
 " fixed the arrow key problems caused by AutoClose
 if !has("gui_running")	
 	set term=linux
+	map OA k
+	map OB j
+	map OC l
+	map OD h
+
 	imap OA <ESC>ki
 	imap OB <ESC>ji
 	imap OC <ESC>li
 	imap OD <ESC>hi
-
-	nmap OA k
-	nmap OB j
-	nmap OC l
-	nmap OD h
 endif
 
 " --- BufExplorer
