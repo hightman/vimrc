@@ -446,7 +446,7 @@ set tags=tags
 " shorcut for ctags
 " http://stackoverflow.com/questions/563616/vim-and-ctags-tips-and-tricks
 "---------------------------------------------
-map <C-\> :vsp <CR>:exec("tag ".expand("<cword>"))<CR>
+map <C-\> :bo 8sp <CR>:exec("tag ".expand("<cword>"))<CR>
 
 "--------------------
 " For JavaScriptLint
