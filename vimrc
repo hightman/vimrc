@@ -433,8 +433,9 @@ nnoremap <leader>ht :HighlightTags<CR>
 nnoremap <silent><leader>hh :let b:easytags_auto_highlight = 1<CR>
 nnoremap <silent><leader>nh :let b:easytags_auto_highlight = 0<CR>
 let g:easytags_dynamic_files = 1
-let g:easytags_by_filetype = '~/.vim/tmp'
 let g:easytags_resolve_links = 1
+" disable split by filetype, it seems is a bug!!
+"let g:easytags_by_filetype = '~/.vim/tmp'
 
 "---------------------------------------------
 " using ctags
