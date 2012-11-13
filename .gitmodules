@@ -79,9 +79,6 @@
 [submodule "bundle/vim-php-namespace"]
 	path = bundle/vim-php-namespace
 	url = git://github.com/arnaud-lb/vim-php-namespace.git
-[submodule "bundle/AutoTag"]
-	path = bundle/AutoTag
-	url = git://github.com/vim-scripts/AutoTag.git
 [submodule "bundle/phpcomplete.vim"]
 	path = bundle/phpcomplete.vim
 	url = git://github.com/shawncplus/phpcomplete.vim.git

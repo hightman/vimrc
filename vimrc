@@ -419,7 +419,7 @@ nnoremap <leader>f :CtrlP<CR>
 set wildignore+=*/tmp/*
 let g:ctrlp_map = '<c-p>'
 let g:ctrlp_cmd = 'CtrlP'
-let g:ctrlp_root_markers = ['protected','CVS']
+let g:ctrlp_root_markers = ['protected','CVS','tags']
 let g:ctrlp_working_path_mode = 'ra'
 let g:ctrlp_custom_ignore = {
 			\ 'dir':  '\v[\/]\.(git|hg|svn)$',
@@ -430,14 +430,13 @@ let g:ctrlp_custom_ignore = {
 "---------------------------------------------
 " using ctags
 "---------------------------------------------
-set tags=./tags;/
+set tags=tags
 
 "---------------------------------------------
 " shorcut for ctags
 " http://stackoverflow.com/questions/563616/vim-and-ctags-tips-and-tricks
 "---------------------------------------------
-map <A-]> :vsp <CR>:exec("tag ".expand("<cword>"))<CR>
-map <C-\> :tab split<CR>:exec("tag ".expand("<cword>"))<CR>
+map <C-\> :vsp <CR>:exec("tag ".expand("<cword>"))<CR>
 
 "--------------------
 " For JavaScriptLint
