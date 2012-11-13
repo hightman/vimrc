@@ -130,7 +130,7 @@ nmap <leader>q :q!<CR>
 map <leader>r :call Replace()<CR>
 
 " open the error console
-map <leader>er :botright cope<CR> 
+map <leader>er :bo cope<CR> 
 " move to next error
 map <leader>] :cn<CR>
 " move to the prev error
@@ -446,7 +446,7 @@ set tags=tags
 " shorcut for ctags
 " http://stackoverflow.com/questions/563616/vim-and-ctags-tips-and-tricks
 "---------------------------------------------
-map <C-\> :bo 8sp <CR>:exec("tag ".expand("<cword>"))<CR>
+map <C-\> :bel 8sp <CR>:exec("tag ".expand("<cword>"))<CR>
 
 "--------------------
 " For JavaScriptLint
