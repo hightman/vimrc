@@ -288,6 +288,7 @@ hi StatusLineNC ctermfg=darkblue ctermbg=gray
 " fixed the arrow key problems caused by AutoClose
 if !has("gui_running")	
 	set term=linux
+	syntax on
 	map OA k
 	map OB j
 	map OC l
@@ -316,7 +317,6 @@ let g:tagbar_type_markdown = {
 			\ 'ctagstype': 'markdown',
 			\ 'kinds': [ 'h:Heading_L1', 'i:Heading_L2', 'k:Heading_L3' ]
 			\ }
-
 " --- NERDTree
 nnoremap <silent> <F3> :NERDTreeToggle<CR>
 nnoremap <leader>n :NERDTreeToggle<CR>
