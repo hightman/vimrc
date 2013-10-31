@@ -157,6 +157,8 @@ map <leader>l :wincmd l<CR>
 " Quickly resize windows use +/-
 map - <C-W>-
 map + <C-W>+
+map > <C-W>>
+map < <C-W><
 
 " Allows all window commands in insert mode
 imap <C-w> <C-o><C-w>
