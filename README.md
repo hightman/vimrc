@@ -50,12 +50,12 @@ Useful vim Plugins included
  * [phpcomplete.vim](https://github.com/shawncplus/phpcomplete.vim)
  * [php.vim](https://github.com/shawncplus/php.vim)
  * [PDV--phpDocumentor-for-Vim](https://github.com/vim-scripts/PDV--phpDocumentor-for-Vim)
- * [vim-html5-fix](https://github.com/concise/vim-html5-fix)
+ * ~[vim-html5-fix](https://github.com/concise/vim-html5-fix)~
  * [vim-haml](https://github.com/tpope/vim-haml)
  * [vim-javascript](https://github.com/pangloss/vim-javascript)
  * [vim-jquery](https://github.com/itspriddle/vim-jquery)
  * [php-search-doc](https://github.com/erikfercak/php-search-doc)
- * [vim-jquery-doc](https://github.com/lucapette/vim-jquery-doc)
+ * ~[vim-jquery-doc](https://github.com/lucapette/vim-jquery-doc)~
  * [ctrlp.vim](https://github.com/kien/ctrlp.vim)
 
 
