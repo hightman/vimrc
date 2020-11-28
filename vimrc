@@ -229,8 +229,14 @@ endif
 set cot-=preview	"disable doc preview in omnicomplete
 
 "---------------------------------------------
+" for python programming
+"---------------------------------------------
+autocmd FileType python set expandtab shiftwidth=4 tabstop=4 softtabstop=4
+
+"---------------------------------------------
 " for PHP programming
 "---------------------------------------------
+autocmd FileType php set expandtab shiftwidth=4 tabstop=4 softtabstop=4
 autocmd FileType php set makeprg=php\ -l\ %
 autocmd FileType php set errorformat=%m\ in\ %f\ on\ line\ %l
 
