@@ -1,6 +1,10 @@
 vimrc for UNIX Web Developers (PHP/C/C++/Lua/JavaScript/HTML/CSS)
 ============
 
+**Deprecated**
+
+Now, I am using basic version of <https://github.com/amix/vimrc>.
+
 
 Goal
 ----------------
